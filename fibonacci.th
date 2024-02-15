@@ -1,14 +1,16 @@
 use thorium.{Case, Integer};
 
 class Fibonacci: Integer? {
-  val: Integer?;
+    val value: Integer?;
 
-  public Fibonacci(i: Integer) {
-    val: Integer? = Case(i)
-      .when(n => n < 0, none)
-      .when(0, _ => 0)
-      .when(1, _ => 1)
-      .when(2, _ => 1)
-      .otherwise(n => Fibonacci(n - 1).val ?+ Fibonacci(n - 2).val);
-  }
+    /**
+    *
+    *
+    *
+    *
+    */
+    public Fibonacci(i: Integer) {
+
+        none;
+    }
 }
